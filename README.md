@@ -11,7 +11,7 @@ Scenario : make a money transfer
 Scenario : View credit card transaction history
 
       Given any authenticated user
-      When a user click on the credit card tab feature
+      When. a user click on the credit card tab feature
       Then it will list all the transactions made during the current month
 
 Scenario : Views account statement in pdf format
@@ -20,7 +20,7 @@ Scenario : Views account statement in pdf format
       When I choose a chequing account
       And By clicking view statements in pdf
       Then I should download my statement in pdf format
-
+#
 Scenario : Pay an invoice with a valid account
 
       Given the owner of the account
